@@ -1,0 +1,36 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Downloaded datasets
+data/raw/
+data/processed/
+
+# Trained models
+models/tensorflow/*.keras
+models/tensorflow/*.h5
+models/pytorch/*.pt
+models/pytorch/*.pth
+
+# Environment variables and secrets
+.env
+
+# IDE settings
+.vscode/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Operating system files
+.DS_Store
+Thumbs.db
