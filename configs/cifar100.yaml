@@ -1,0 +1,24 @@
+# CIFAR-100 dataset configuration
+
+dataset:
+  name: CIFAR-100
+  root: data/raw/cifar100
+  num_classes: 100
+  image_height: 32
+  image_width: 32
+  channels: 3
+
+  train_samples: 50000
+  test_samples: 10000
+
+download:
+  enabled: true
+
+training:
+  batch_size: 128
+  epochs: 30
+  learning_rate: 0.001
+  validation_split: 0.1
+
+reproducibility:
+  random_seed: 42
