@@ -1,0 +1,6 @@
+method,correct_predictions,total_images,accuracy_percent
+ResNet-50,4140,5000,82.8
+refined ConvNeXt-Tiny,4414,5000,88.28
+refined ConvNeXt + TTA,4428,5000,88.56
+ResNet-50 + refined ConvNeXt,4394,5000,87.88
+Ensemble + TTA,4415,5000,88.3

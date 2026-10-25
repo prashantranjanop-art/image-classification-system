@@ -1,0 +1,27 @@
+{
+    "ResNet-50": {
+        "correct_predictions": 4140,
+        "total_images": 5000,
+        "accuracy_percent": 82.8
+    },
+    "refined ConvNeXt-Tiny": {
+        "correct_predictions": 4414,
+        "total_images": 5000,
+        "accuracy_percent": 88.28
+    },
+    "refined ConvNeXt + TTA": {
+        "correct_predictions": 4428,
+        "total_images": 5000,
+        "accuracy_percent": 88.56
+    },
+    "ResNet-50 + refined ConvNeXt": {
+        "correct_predictions": 4394,
+        "total_images": 5000,
+        "accuracy_percent": 87.88
+    },
+    "Ensemble + TTA": {
+        "correct_predictions": 4415,
+        "total_images": 5000,
+        "accuracy_percent": 88.3
+    }
+}
